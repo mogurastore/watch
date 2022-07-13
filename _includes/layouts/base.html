@@ -5,12 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MoguraWatch</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
   </head>
   <body>
-    <header>
-      <a href="/">MoguraWatch</a>
-    </header>
+    <div class="container">
+      <p class="title">
+        <a href="/">MoguraWatch</a>
+      </p>
+      <p class="subtitle">インターネットを見ていて学んだことを残すサイトです</p>
 
-    <div>{{ content }}</div>
+      {{ content }}
+      <footer>
+        created by
+        <a href="//mogurastore.com" target="_blank" rel="noopener"
+          >もぐらストア</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
