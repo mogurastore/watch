@@ -6,4 +6,5 @@ import sitemap from "@astrojs/sitemap";
 export default defineConfig({
   site: "https://watch.mogura.dev",
   integrations: [sitemap()],
+  trailingSlash: "always",
 });
